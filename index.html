@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Favicon -->
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <!-- StyleSheets -->
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Frontend Mentor | Base Apparel page</title>
+  </head>
+
+  <body>
+    <main class="container">
+      <div class="left-section">
+        <div class="left-section-container">
+          <header>
+            <img class="logo" src="./images/logo.svg" alt="Logo" />
+          </header>
+          <img
+            src="./images/hero-mobile.jpg"
+            alt="Hero Mobile"
+            class="hero-mobile"
+          />
+          <h1>
+            We're <br />
+            <span> Coming <br />Soon</span>
+          </h1>
+
+          <p>
+            Hello fellow shoppers! We're currently building our new fashion
+            store. Add your email below to stay up-to-date with announcements
+            and our launch deals.
+          </p>
+
+          <form class="signup-form"  novalidate>
+            <!--novalidate - Disable validation of HTML5 form elements-->
+            <input
+              class="email-address"
+              type="email"
+              name="email"
+              id="email"
+              placeholder="Email Address"
+            />
+            <img
+              class="email-error"
+              src="./images/icon-error.svg"
+              alt="invalid email"
+            />
+
+            <button type="submit">
+              <img
+                class="submit-button"
+                src="./images/icon-arrow.svg"
+                alt="arrow button image"
+              />
+            </button>
+            <div class="error-massage">Please provide a vaild email</div>
+          </form>
+        </div>
+      </div>
+      <div class="right-section hero-desktop"></div>
+    </main>
+
+    <script src="./script.js"></script>
+
+    <footer>
+      <p class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by
+        <a href="https://www.linkedin.com/in/yoavhevroni/">Yoav Hevroni</a>.
+      </p>
+    </footer>
+  </body>
+</html>
