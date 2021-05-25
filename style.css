@@ -109,7 +109,7 @@ input:focus {
 }
 .submit-button:hover {
   background-image: var(--Gradient-1);
-  left: 80%;
+  transform:translate(8px,0);
 }
 form.error input {
   border: 2px solid var(--soft-red);
