@@ -1,9 +1,8 @@
 # Frontend Mentor - Base Apparel coming soon page
 
-![Design preview for the Base Apparel coming soon page coding challenge](./design/desktop-preview.jpg)
 
-https://github.com/yoavv2/base-apparel-coming-soon/design/desktop-preview.jpg
-![alt text](https://github.com/yoavv2/base-apparel-coming-soon/blob/main/image.jpg?raw=true)
+
+![alt text](https://github.com/yoavv2/base-apparel-coming-soon/blob/main/design/desktop-preview.jpg?raw=true)
 
 
 ## Welcome! 👋
